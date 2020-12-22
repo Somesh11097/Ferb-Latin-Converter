@@ -16,14 +16,22 @@ body{
 }
 
 header{
+    background-color: var(--primary-color);
     color:var(--light);
     text-align: center;
     font-size: larger;
+    margin:0; 
+    position:fixed; 
+    bottom:0; 
+    left:0; 
+    right:0;
     font-family: 'Courgette', cursive;
 }
 /* #middle{
     background-image: url(images/images.jpg);
     background-repeat: no-repeat;
+    
+    background-attachment:fixed
 } */
 footer{
     background-color: var(--primary-color);
