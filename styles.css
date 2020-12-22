@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Courgette&family=Kalam:wght@300;700&family=Maven+Pro:wght@400;700&family=Nanum+Myeongjo:wght@400;800&family=Noto+Sans+HK:wght@100&family=Spartan:wght@100;300;500&display=swap');
 
 :root{
     --primary-color:#36746a;
@@ -12,24 +11,20 @@ body{
    padding:0;
    margin:0;
    background-color: var(--dark);
-/*   font-family: 'Amatic SC', cursive; 
-   font-family: 'Courgette', cursive;*/
    font-family: 'Kalam', cursive;
-    /*font-family: 'Maven Pro', sans-serif;
-    font-family: 'Nanum Myeongjo', serif;
-    font-family: 'Noto Sans HK', sans-serif;
-    font-family: 'Spartan', sans-serif;  */
+   
 }
 
 header{
     color:var(--light);
     text-align: center;
     font-size: larger;
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Courgette', cursive;
 }
-#middle{
-    background-image: url(images/bg.jfif);
-}
+/* #middle{
+    background-image: url(images/images.jpg);
+    background-repeat: no-repeat;
+} */
 footer{
     background-color: var(--primary-color);
     color:var(--light);
@@ -39,13 +34,15 @@ footer{
     left:0; 
     right:0;
     text-align: center;
+    font-family: 'Maven Pro', sans-serif;
+    
 }
 
 textarea{
     width:50%;
     height:20vh;
     opacity: 0.5;
-    font-family: 'Spartan', sans-serif; 
+    font-family: 'Courgette', cursive;
     padding:1rem;
     margin:2px;
     border:none;
@@ -53,7 +50,7 @@ textarea{
 }
 
 button{
-    font-family: 'Kalam', cursive;
+    font-family: 'Noto Sans HK', sans-serif;
     font-weight:700;
     background-color: var(--dark);
     color:var(--light);
